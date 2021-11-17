@@ -34,6 +34,7 @@ ansible-doc -t connection -s ssh
 
 9. Какой параметр из модуля подключения `ssh` необходим для того, чтобы определить пользователя, под которым необходимо совершать подключение?
 
+```shell
    remote_user
         User name with which to login to the remote server, normally set by the remote_user keyword.
         If no user is supplied, Ansible will let the ssh client binary choose the user as it normally
@@ -50,4 +51,5 @@ ansible-doc -t connection -s ssh
 
         cli:
         - name: user
+ ```
 
